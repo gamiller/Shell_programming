@@ -1,0 +1,13 @@
+TESTING for CS50 15S Lab2- Grace Miller 4/13/2015 professor Charles Palmer
+
+1. birthday_match.sh
+I tested this program by inputing two valid dates with the correct format which were recent so that I could check on my own calender which days they fell on and that they were on the same/ not the same day.  I then checked putting in 0 or 1 correct date, two dates with incorrect format, and 2 invalid days, to check that the program crashed.
+
+2. count_files.sh
+I went to a smaller subdirectory that I could count the number of files myself, and created files with two different extensions as well as noext files.  I then ran the program and made sure that it counted correctly.
+
+3. url_search
+I tested this giving it a test file with two urls which contained small amounts of text on them, then not deleting the temporary html file and counting the words within the temporary file to ensure that it was counting correctly and writing the html code correctly.  I then tried testing with case sensitive words to ensure it was case sensitive "dart" vs "Dart."  I tested with varying words and amounts of words, and no given words
+
+4. spy.sh
+I tested this against myself, looking at when I logged in and out and comparing it to the log.  I also tested with a friend and did the same.  I also tested with no given names, invalid given names, people with multiple usernames such as Professor Palmer.  I also tested in the end on Professor Palmer on 4/13/2015 from 9-11 pm in Stowe.  
