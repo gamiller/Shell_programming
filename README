@@ -1,0 +1,25 @@
+README for CS50 15S Lab2- Grace Miller 4/13/2015 professor Charles Palmer
+
+this tar contains 4 programs:
+
+1. birthday_match.sh
+When using birthday_match.sh it is important to put in exactly two dates in the format of XX/XX/XXXX using the traditional American date format of month/day/year.  Therefore, if the day or month is 1-9, you must add a year before or else the program will crash.  As well, these dates must be valid dates or the program will crash.  
+
+
+2. count_files.sh
+This program counts a filetype as the file extension.  It only searches through files, not directories or other types.  It searches through whichever dictorary you are currently, as well as any subdirectories.  If a file has no filetype (i.e., there is no "." in its name OR there is a "." that has no chracters following it) then it is counted in a special group called "noext." 
+
+3. url_search.sh
+The program must be given a text file containing a list of URLs and one or more words to be searched for within each of those URL's html codes.  The first given parameter must be the text file which each url on a different line.  Then, each word must be space seperated.  This search looks for partial matches, so if "dart" is searched, "dartmouth."  The search is case sensitive.
+
+4. spy.sh
+# *	The given "shortest time" is 99999999999999999999 minutes, an absurdly high number
+# 		so as any possible will be less than, but if this program runs long enough to hit it be aware.
+# *	For the longest session, shortest session, and most time spent, in case of a tie the recorded user
+# 		is the most recently recorded username, so the last parameter given
+# * even if the user was logged in before spy.sh began, the session begins at the current time
+#     	so therefore the timeIn would be the current time not the user's login time
+# * parameters are A list of users to track, they can be listed by their full given name (first, middle initial, last)
+# 		or by their full user id.  Partial matches will not be accepted in order to avoid tracking the wrong person.
+# 		If the name has two user ames then the script only takes the first one that is found.
+# 		ex. ./spy.sh "Charles Palmer" "Tony Stark"  
